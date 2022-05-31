@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: calibri, sans-serif;
+    text-align: center;
+}
+header{
+    background: linear-gradient(45deg,teal,lightseagreen);
+    padding: 25px;
+}
+h1{
+    font-size: 80px;
+    color: gray;
+}
+p{
+    color: gray;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+header h1{
+    color: whitesmoke;
+}
+nav{
+    background-color: lightgray;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px 25px;
+    display: inline-block;
+}
+nav a:hover{
+    background-color: lightseagreen;
+    color: whitesmoke;
+}
+.home-section{
+    padding: 100px;
+}
+.button{
+    border: none;
+    background-color: gray;
+    color: whitesmoke;
+    padding: 10px 25px;
+    margin: 10px;
+}
+.button:hover{
+    background-color: lightseagreen;
+    color: black;
+}
+.packages-section figure{
+    display: inline-block;
+    width: 300px;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+    margin: 20px;
+    background-color: whitesmoke;
+}
+.packages-section img{
+    width: 100%;
+}
+.packages-section figure figcaption{
+    font-size: 30px;
+}
+.packages-section figure p{
+    font-size: 18px;
+}
+.main-footer{
+    background-color: gray;
+    padding: 20px;
+    color: whitesmoke;
+    margin-top: 20px;
+}

@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(90deg,lightsalmon,lightgreen,lightblue);
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100hv;
+    height: 100hv;
+}
+figure{
+    display: inline-block;
+    margin: 2px;
+}
+img{
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 10px black;
+    border-radius: 5%;
+    padding: 2px;
+}
+img:hover{
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.6);
+}
+.main-header{
+    background: linear-gradient(45deg, black, darkred);
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 0;
+    text-shadow: 0 3px 3px yellowgreen;
+}
+.main-header h1{
+    font-size: 50px;
+}
+.circle-div{
+    border: 5px solid green;
+    height: 80px;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 50%;
+}
+.circle-div:hover{
+    border: 5px double red;
+}
+.main-nav{
+    background: linear-gradient(45deg, blueviolet, deeppink);
+    position: sticky;
+    top: 0;
+}
+.main-nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+.main-nav ul li{
+    display: flex;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.main-nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    padding: 12.5px 18px;
+}
+.main-nav ul li a:hover{
+    background-color: rgba(211, 211, 211, 0.65);
+    border-radius: 50px;
+}
+.hone{
+    background: linear-gradient(45deg,gray,lightblue,lightsalmon);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 25px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0 0 10px black;
+    color: orangered;
+}
+.main-footer{
+    background-color: gray;
+    padding: 20px;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+.footer-division a{
+    text-decoration: none;
+    color: rgb(0, 255, 255);
+}
+@media (max-width: 714px) {
+    html,
+    body,
+    .division{
+        width: inherit;
+    }
+    .circle-div{
+        width: 50%;
+    }
+    .circle-div h1,
+    .hone{
+        font-size: 100%;
+    }
+    img{
+        width: 80%;
+        height: 80%;
+    }
+    .main-nav ul{
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .main-nav ul,
+    .main-nav ul li,
+    .main-nav ul li a {
+        width: inherit;
+    }
+    .main-nav ul li{
+        padding: 3px;
+    }
+    .hone{
+        width: 80%;
+    }
+}
