@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB 4 -->
+  <link rel="stylesheet" href="boot/MDB-4/css/bootstrap.css" />
+  <link rel="stylesheet" href="boot/MDB-4/css/mdb.css" />
+  <!-- MDB 5 -->
+  <link rel="stylesheet" href="boot/MDB-5/css/mdb.min.css" />
+  <!-- Custom Style -->
+  <link rel="stylesheet" href="boot/style.css">
+</head>
+
+<body>
+  <!-- Start your project here-->
+  <header class="main-header">
+    <nav class="navbar navbar-dark navbar-expand-sm scrolling-navbar fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <i class="fa fa-seedling"></i>
+          Ultimate Vacation
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#index-navbar">
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="index-navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="btn btn-danger">book now</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Landing Page -->
+  <div class="landing">
+    <div class="landing-wrapper d-flex flex-column h-100 justify-content-center align-items-center text-center">
+      <div class="carousel slide carousel-fade" id="index-slider" data-mdb-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h1 class="display-4 animated slideInLeft delay-1s">Enjoy Ultimate Vacations <br> with Us</h1>
+          </div>
+          <div class="carousel-item">
+            <h1 class="display-4 animated slideInRight delay-1s">Make Tours Amazing <br> with Us</h1>
+          </div>
+          <div class="carousel-item">
+            <h1 class="display-4 animated slideInDown delay-1s">Feel Relaxed in Holidays <br> with Us</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- search engine -->
+  <section class="p-5 bg-dark text-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-3">
+          <div class="form-group">
+            <label class="form-check-label">Check in Date</label>
+            <input type="date" class="form-control">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-group">
+            <label class="form-check-label">Check out Date</label>
+            <input type="date" class="form-control">
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="form-group">
+            <label class="form-check-label">Adults</label>
+            <select class="form-control">
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+              <option value="">5</option>
+              <option value="">6</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="form-group">
+            <label class="form-check-label">Child</label>
+            <select class="form-control">
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+              <option value="">5</option>
+              <option value="">6</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <input type="submit" value="Search" class="btn btn-danger btn-lg">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Activities section -->
+  <section class="p-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row p-3">
+            <div class="col-md-6">
+              <i class="fa fa-gamepad fa-4x text-secondary"></i>
+              <h3 class="font-weight-bold">Activities</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam laudantium esse mollitia consequatur laborum, modi tempore eveniet. Ea, corrupti doloremque!</p>
+            </div>
+            <div class="col-md-6">
+              <i class="fa fa-bus fa-4x text-success"></i>
+              <h3 class="font-weight-bold">Private Guide</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam laudantium esse mollitia consequatur laborum, modi tempore eveniet. Ea, corrupti doloremque!</p>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md-6">
+              <i class="fa fa-person-booth fa-4x text-warning"></i>
+              <h3 class="font-weight-bold">Private Guide</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam laudantium esse mollitia consequatur laborum, modi tempore eveniet. Ea, corrupti doloremque!</p>
+            </div>
+            <div class="col-md-6">
+              <i class="fa fa-chalkboard-teacher fa-4x text-primary"></i>
+              <h3 class="font-weight-bold">Local Manager</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui perferendis doloribus voluptate ad earum vel ipsam ipsa velit delectus aspernatur!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h5 class="display-3">It's time to start your adventure</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eveniet quisquam sequi quaerat illum corrupti, deleniti excepturi soluta eius, amet dignissimos! Excepturi tenetur natus voluptatem, numquam soluta nam illum, id sed deleniti atque quo, similique velit tempora provident veritatis doloribus possimus. Saepe, fugit enim veniam nam accusantium nisi dolorem dolorum!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vitae recusandae accusantium nesciunt at voluptatum, quasi sunt quam fuga voluptate optio dignissimos repellendus atque exercitationem odio fugit aperiam? Omnis repellendus vero, natus ut aliquam nam consequuntur quas debitis minima reprehenderit et animi ratione quod atque tenetur mollitia, impedit, officia ab iste nulla incidunt voluptatum? Rem quis consectetur voluptates maiores earum!</p>
+          <button class="btn btn-danger btn-lg">read more description</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Tour guide section -->
+  <section class="p-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="boot/images/tour_image_1.jpg" alt="" class="img-fluid tour-image">
+        </div>
+        <div class="col-md-6">
+          <h5 class="display-4">Make Your Tour Memorable and Safe With Us</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, sequi unde. Eius laudantium libero explicabo voluptas iure obcaecati perspiciatis tempora!</p>
+          <div class="row">
+            <div class="col-md-4">
+              <h3 class="text-danger">300</h3>
+              <p>Successful Tour</p>
+            </div>
+            <div class="col-md-4">
+              <h3 class="text-danger">25415</h3>
+              <p>Happy Tourists</p>
+            </div>
+            <div class="col-md-4">
+              <h3 class="text-danger">200</h3>
+              <p>Place Explored</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center mt-5">
+        <div class="col-md-6">
+          <h5 class="display-4">Make Your Tour Memorable and Safe With Us</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita impedit, commodi debitis quaerat consequuntur temporibus alias itaque, unde aut cumque dolor nobis. Consequatur fugiat itaque iure ipsam cupiditate dignissimos. Odit.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quam officiis labore nemo dignissimos? Corrupti atque cumque possimus autem distinctio maxime magni, adipisci non. Optio iure dolores minima beatae asperiores corrupti provident nostrum! Officia, asperiores aperiam? Mollitia eveniet nulla quae temporibus aliquam repellat amet perferendis, ipsa consequatur numquam dolorem sapiente.</p>
+          <div class="row">
+            <div class="col-md-4">
+              <h3 class="text-dark">300</h3>
+              <p>Successful Tour</p>
+            </div>
+            <div class="col-md-4">
+              <h3 class="text-dark">25415</h3>
+              <p>Happy Tourists</p>
+            </div>
+            <div class="col-md-4">
+              <h3 class="text-dark">200</h3>
+              <p>Places Tour</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="boot/images/tour_image_2.jpg" alt="" class="img-fluid tour-image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  Best Places -->
+  <section class="p-4">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col text-dark">
+          <h1>Best Place Destination</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, id!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card dest-card">
+            <div>
+              <img src="boot/images/card_singapore.jpg" alt="" class="img-fluid dest-card-image">
+            </div>
+            <div class="dest-card-title">
+              <h3>Singapore</h3>
+            </div>
+            <div class="dest-card-info">
+              <h4>8 Tours</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card dest-card">
+            <div>
+              <img src="boot/images/card_paris.jpg" alt="" class="img-fluid dest-card-image">
+            </div>
+            <div class="dest-card-title">
+              <h3>Paris</h3>
+            </div>
+            <div class="dest-card-info">
+              <h4>4 Tours</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card dest-card">
+            <div>
+              <img src="boot/images/card_canada.jpg" alt="" class="img-fluid dest-card-image">
+            </div>
+            <div class="dest-card-title">
+              <h3>Canada</h3>
+            </div>
+            <div class="dest-card-info">
+              <h4>3 Tours</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card dest-card">
+            <div>
+              <img src="boot/images/card_thialand.jpg" alt="" class="img-fluid dest-card-image">
+            </div>
+            <div class="dest-card-title">
+              <h3>Thialand</h3>
+            </div>
+            <div class="dest-card-info">
+              <h4>5 Tours</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-3">
+          <div class="card dest-card">
+            <div>
+              <img src="boot/images/card_bali.jpg" alt="" class="img-fluid dest-card-image">
+            </div>
+            <div class="dest-card-title">
+              <h3>Bali</h3>
+            </div>
+            <div class="dest-card-info">
+              <h4>7 Tours</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card dest-card">
+            <div>
+              <img src="boot/images/card_bankok.jpg" alt="" class="img-fluid dest-card-image">
+            </div>
+            <div class="dest-card-title">
+              <h3>Bankok</h3>
+            </div>
+            <div class="dest-card-info">
+              <h4>5 Tours</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card dest-card">
+            <div>
+              <img src="boot/images/card_malasia.jpg" alt="" class="img-fluid dest-card-image">
+            </div>
+            <div class="dest-card-title">
+              <h3>Malasia</h3>
+            </div>
+            <div class="dest-card-info">
+              <h4>6 Tours</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card dest-card">
+            <div>
+              <img src="boot/images/card_indonasia.jpg" alt="" class="img-fluid dest-card-image">
+            </div>
+            <div class="dest-card-title">
+              <h3>Indonasia</h3>
+            </div>
+            <div class="dest-card-info">
+              <h4>3 Tours</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Tour Destinations -->
+  <section class="p-3">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col text-dark">
+          <h4 class="display-5">Tour Destinations</h4>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, perspiciatis?</p>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-4">
+          <div class="card location-card">
+            <img src="boot/images/card_1.jpg" alt="" class="img-flud location-image">
+            <h4 class="location-price">$300/Person</h4>
+            <div class="card-body">
+              <h3 class="text-black">Paris</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo incidunt similique enim ipsum atque maiores natus quasi amet distinctio iure!</p>
+              <button class="btn btn-danger">book now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card location-card">
+            <img src="boot/images/card_2.jpg" alt="" class="img-flud location-image">
+            <h4 class="location-price">$300/Person</h4>
+            <div class="card-body">
+              <h3 class="text-black">Malasia</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo incidunt similique enim ipsum atque maiores natus quasi amet distinctio iure!</p>
+              <button class="btn btn-danger">book now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card location-card">
+            <img src="boot/images/card_3.jpg" alt="" class="img-flud location-image">
+            <h4 class="location-price">$300/Person</h4>
+            <div class="card-body">
+              <h3 class="text-black">Bali</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo incidunt similique enim ipsum atque maiores natus quasi amet distinctio iure!</p>
+              <button class="btn btn-danger">book now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="card location-card">
+            <img src="boot/images/card_4.jpg" alt="" class="img-flud location-image">
+            <h4 class="location-price">$300/Person</h4>
+            <div class="card-body">
+              <h3 class="text-black">Singapore</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo incidunt similique enim ipsum atque maiores natus quasi amet distinctio iure!</p>
+              <button class="btn btn-danger">book now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card location-card">
+            <img src="boot/images/card_5.jpg" alt="" class="img-flud location-image">
+            <h4 class="location-price">$300/Person</h4>
+            <div class="card-body">
+              <h3 class="text-black">Malasia</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo incidunt similique enim ipsum atque maiores natus quasi amet distinctio iure!</p>
+              <button class="btn btn-danger">book now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card location-card">
+            <img src="boot/images/card_6.jpg" alt="" class="img-flud location-image">
+            <h4 class="location-price">$300/Person</h4>
+            <div class="card-body">
+              <h3 class="text-black">Indonasia</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo incidunt similique enim ipsum atque maiores natus quasi amet distinctio iure!</p>
+              <button class="btn btn-danger">book now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Main Footer -->
+  <footer class="main-footer mt-4">
+    <div class="footer-content">
+      <div class="container p-5">
+        <div class="row">
+          <div class="col-md-3">
+            <h2>Vacations</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse error quo fuga ipsum aperiam repellat. Modi assumenda provident enim ipsum deleniti fugit, veritatis facere laudantium consequatur harum nesciunt nihil numquam?</p>
+          </div>
+          <div class="col-md-3">
+            <h2>Information</h2>
+            <p>adventure</p>
+            <p>Tour</p>
+            <p>Hotels</p>
+            <p>Destinations</p>
+            <p>Enquries</p>
+            <p>Online Booking</p>
+            <p>Spot Booking</p>
+          </div>
+          <div class="col-md-3">
+            <h2>Experience</h2>
+            <p>adventure</p>
+            <p>Tour</p>
+            <p>Hotels</p>
+            <p>Destinations</p>
+            <p>Enquries</p>
+            <p>Online Booking</p>
+            <p>Spot Booking</p>
+          </div>
+          <div class="col-md-3">
+            <h2>Address</h2>
+            <p>Flat: 1471, Road No. 14</p>
+            <p>Jubilee Hills, Hyderabad</p>
+            <p>Telengana, India</p>
+                <div class="d-flex justify-content-between">
+                  <i class="fab fa-facebook-square fa-2x text-primary"></i>
+                  <i class="fab fa-twitter fa-2x text-info"></i>
+                  <i class="fab fa-instagram fa-2x text-danger"></i>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End your project here-->
+
+  <!-- MDB 4 -->
+  <script type="text/javascript" src="boot/MDB-4/js/jquery.js"></script>
+  <script type="text/javascript" src="boot/MDB-4/js/popper.js"></script>
+  <script type="text/javascript" src="boot/MDB-4/js/bootstrap.js"></script>
+  <script type="text/javascript" src="boot/MDB-4/js/mdb.js"></script>
+  <!-- MDB 5 -->
+  <script type="text/javascript" src="boot/MDB-5/js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+  <script>
+    $('.carousel').carousel({
+      interval: 3000,
+    })
+  </script>
+</body>
+
+</html>
